@@ -1,215 +1,115 @@
-# Awesome-AI-System-Design-Architecture-Agents
+# Awesome AI System Design & Architecture Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top AI System Design & Architecture Agents Ecosystem
+> A curated directory and ecosystem guide of **AI System Design & Architecture Agents**, Diagram-as-Code engines, visual cloud topology compilers, and automated software architecture modeling tools.
 
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social)](https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social)](https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/network/members)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## Overview
 
-*Focused on AI System Architecture Agents, Diagram-as-Code Engines (Mermaid, D2, PlantUML, Structurizr), Collaborative Architecture Whiteboards & Cloud Topology Generators*  
+Modern software engineering is transitioning from manual, static whiteboard diagrams to **AI-driven architecture synthesis** and **Diagram-as-Code (DaC)**. This repository tracks production **SaaS platforms**, enterprise visual workspaces, and **open-source developer tools** that empower Principal Architects, Staff Engineers, Tech Leads, and AI agents to:
 
-**Last updated: November 2026**
+- Transform natural language user stories and PRDs into comprehensive C4 models, sequence diagrams, and ERDs.
+- Reverse-engineer git codebases and Terraform/OpenTofu configurations into interactive cloud topologies.
+- Generate version-controlled, auditable architecture specifications using Mermaid, PlantUML, D2, and Structurizr DSL.
+- Integrate Diagram-as-Code MCP (Model Context Protocol) servers directly into autonomous coding agents (Claude Code, Cursor, Copilot Workspace).
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI System Design & Architecture Agents**. These tools translate natural-language specs and codebases into C4 architecture models, sequence diagrams, entity-relationship schemas, and AWS/GCP/Azure cloud topologies—combining AI design agents with version-controlled Diagram-as-Code and collaborative visual canvases.
-
-
-
-**Examples** include Eraser.io (DiagramGPT), Lucidchart AI, IcePanel, Cloudcraft, Brainboard, PlantUML Cloud, Visual Paradigm, Draw.io Cloud, Structurizr, Miro AI, and langchain-ai/design-agent (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for AI system-design and diagramming agents (`langchain-ai/design-agent`, `Next AI Draw.io`, `Mermaid.js`), modern Diagram-as-Code compilers (`D2`, `PlantUML`, `Structurizr`, `Diagrams` Python), infinite collaborative whiteboards (`Excalidraw`, `Draw.io`, `AFFiNE`), and architecture-as-code linters — ideal for software architects, Principal/Staff engineers, DevOps teams, and technical writers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
+- [Architecture Decision Records & Linters](#architecture-decision-records--linters)
+- [Contributing](#contributing)
+- [License & Disclaimer](#license--disclaimer)
 
-- [How to Contribute](#how-to-contribute)
+---
 
-- [Disclaimer](#disclaimer)
+## Sector Overview & Market Dynamics
 
+The global diagramming and visual architecture software market is valued at approximately **$1.8B to $2.5B** (projected to reach **$6.8B+ by 2030** at ~10% CAGR). The sector is **moderately fragmented**: horizontal enterprise collaboration giants (Datadog, Miro, Lucid Software) capture significant enterprise spend, but developer-first adoption remains heavily decentralized across specialized Diagram-as-Code tools, open-source engines, and emerging AI-native architecture startups.
 
+---
 
-## SaaS/Hosted Platforms
+## SaaS & Hosted Platforms
 
+| Product | Valuation / Revenue | Starting Pricing | Free Tier Limits | Key Architecture Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cloudcraft](https://cloudcraft.co)** | ~$60B Public Market Cap *(Datadog NASDAQ: DDOG)* | $15 / host / month *(via Datadog Pro)* | Free with any Datadog plan (Datadog free tier covers up to 5 hosts with 1-day metric retention; standalone cloudcraft provides limited trial) | Isometric 3D/2D live AWS & Azure architecture diagrams with real-time billing cost forecasting and telemetry overlays. |
+| **[Lucidchart AI](https://lucidchart.com)** | ~$3.0B Valuation *(~$140M+ ARR)* | $9.00 / user / month *(billed annually)* | Free forever: 3 editable documents, max 75 shapes/objects per document, basic Lucid AI access | Enterprise diagramming suite with AI-assisted prompt-to-flowchart synthesis, cloud infrastructure imports (AWS/Azure/GCP), and Confluence/Jira integration. |
+| **[Miro AI](https://miro.com)** | ~$1.36B Valuation *(~$600M ARR)* | $8.00 / member / month *(billed annually)* | Free forever: 3 active editable boards, unlimited viewers, basic AI credits (~10/team/month), shared workspace only | Enterprise collaborative canvas with Miro AI text-to-diagram generators, cloud topology templates, and interactive architecture review rooms. |
+| **[Eraser.io](https://eraser.io)** | ~$4M Funding *(~$2.8M ARR)* | $45.00 / member / month *(billed annually)* | Free forever: 3 files max, 3 AI DiagramGPT credits / month, 7-day version history, unlimited viewers | Developer-first documentation canvas pairing Markdown notes with DiagramGPT to synthesize C4 architecture, ERDs, and cloud topologies from code. |
+| **[Brainboard](https://brainboard.co)** | ~$2.5M Valuation *(~$1.5M ARR)* | $99.00 / user / month *(Starter Plan)* | Free forever: 1 workspace, unlimited cloud architecture diagrams, unlimited Terraform/OpenTofu code exports | Visual cloud architecture workspace that automatically translates drag-and-drop cloud topologies into production Terraform code with built-in CI/CD. |
+| **[IcePanel](https://icepanel.io)** | ~$500K Funding *(Seed / YC)* | $40.00 / editor / month *(billed annually)* | Free forever: 1 editor, up to 100 model objects, 2 tag groups, 1 interactive flow per diagram, unlimited viewers | Interactive C4 model diagramming tool connecting zoomable domain contexts to code repositories, API contracts, and Architecture Decision Records (ADRs). |
+| **[Visual Paradigm Online](https://visual-paradigm.com)** | Bootstrapped / Private *(Est. $10M–$25M Revenue)* | $4.00 / user / month *(Starter Plan)* | Free forever (personal/non-commercial): 1 GB cloud storage, basic web diagrams, smartboards, and VPasCode access | UML, BPMN, ArchiMate, and ERD system-modeling suite with AI-driven diagram generation and enterprise software architecture documentation tools. |
+| **[Structurizr](https://structurizr.com)** | Bootstrapped / Independent *(Est. ~$500K ARR)* | £300 / month *(Self-hosted team license, 1–20 users)* | Free forever: Structurizr DSL is 100% free; web browser sandbox available at `playground.structurizr.com` (Cloud SaaS retired Sept 2026) | Flagship C4 model-as-code solution by Simon Brown, creating consistent System Context, Container, Component, and Code diagrams from single DSL scripts. |
+| **[Draw.io Cloud](https://diagrams.net)** | Bootstrapped / Private *(JGraph Ltd)* | $15.00 / month *(Atlassian Marketplace 20-user tier)* | Free forever: `app.diagrams.net` is 100% free with unlimited diagrams and no login; Atlassian Cloud plugin is free up to 10 users | Privacy-first diagramming suite with zero server-side storage, full cloud-storage integration (Google Drive, GitHub), and AI diagram generators. |
+| **[Kroki Hosted](https://kroki.io)** | Open-Source / Sponsored Infrastructure | Free / Donation Supported | Free forever: Public web API at `kroki.io` is unmetered for standard interactive use; no credit card required | Multi-engine diagram conversion API service rendering PlantUML, Mermaid, D2, Graphviz, Structurizr, and BPMN into SVG/PNG/PDF on demand. |
 
-
-- **[Eraser.io (DiagramGPT)](https://eraser.io)**  
-
-  Technical design and documentation platform for engineering teams combining Markdown docs, an infinite diagram canvas, and DiagramGPT to generate cloud architecture, sequence, and ERD diagrams from prompts or code.
-
-
-
-- **[Lucidchart AI](https://lucidchart.com)**  
-
-  Enterprise intelligent diagramming platform featuring generative AI flowchart/architecture synthesis, automated cloud infrastructure import, and collaborative system design canvases.
-
-
-
-- **[IcePanel](https://icepanel.io)**  
-
-  Collaborative C4 model architecture diagramming and system-mapping platform linking interactive zoomable diagrams directly to cloud resources, repositories, and architecture decision records.
-
-
-
-- **[Cloudcraft (Datadog)](https://cloudcraft.co)**  
-
-  Visual cloud architecture design and live AWS/Azure topology mapping platform generating isometric infrastructure diagrams with real-time cost estimation and live telemetry overlays.
-
-
-
-- **[Brainboard](https://brainboard.co)**  
-
-  Visual cloud architecture design and Infrastructure-as-Code (IaC) automation platform that converts drag-and-drop or AI-generated cloud diagrams directly into production Terraform/OpenTofu code.
-
-
-
-- **[Miro (Miro AI & Intelligent Canvas)](https://miro.com)**  
-
-  Collaborative visual workspace offering AI diagram generation, automated system-design templates, mind mapping, and technical architecture workshops for distributed teams.
-
-
-
-- **[Structurizr Cloud / On-Premises](https://structurizr.com)**  
-
-  C4 model architecture tooling platform built around the Structurizr DSL to generate multiple consistent system context, container, and component views from a single model definition.
-
-
-
-- **[Draw.io Cloud (diagrams.net)](https://diagrams.net)**  
-
-  Free cloud-connected web diagramming application integrating with Google Drive, OneDrive, and GitHub alongside AI smart-template generation for flowcharts, UML, and cloud architectures.
-
-
-
-- **[Visual Paradigm Online & AI](https://visual-paradigm.com)**  
-
-  Cloud UML, ArchiMate, BPMN, and ERD modeling suite featuring AI-assisted diagram generation and enterprise software architecture documentation tools.
-
-
-
-- **[PlantUML Cloud / Kroki Hosted](https://kroki.io)**  
-
-  Managed diagram-as-code rendering endpoints converting plain-text PlantUML, Mermaid, D2, and C4 descriptions into SVG/PNG architectural diagrams via simple URLs and APIs.
-
-
-
-
+---
 
 ## Open-Source GitHub Projects
 
-
-
-- **[langchain-ai/design-agent](https://github.com)**  
-
-  Open-source AI system-design and architecture agent built with LangGraph that collaborates with engineers to explore requirements, propose trade-offs, and generate structured system architectures.
-
-
-
-- **[Mermaid (`mermaid-js/mermaid`)](https://github.com)**  
-
-  Industry-standard open-source (`MIT`) JavaScript Diagram-as-Code engine natively supported by GitHub, GitLab, Notion, and virtually every LLM to render flowcharts, sequence diagrams, ERDs, C4 models, and architecture graphs from Markdown.
-
-
-
-- **[D2 (`terrastruct/d2`)](https://github.com)**  
-
-  Modern open-source (`MPL-2.0`) declarative diagram scripting language written in Go featuring ELK/Tala layout engines, interactive tooltips, SQL/UML tables, and clean LLM-friendly syntax.
-
-
-
-- **[PlantUML (`plantuml/plantuml`)](https://github.com)**  
-
-  Comprehensive open-source (`GPL-3.0`) text-to-diagram engine supporting UML sequence/class/component diagrams, C4-PlantUML architecture models, network topologies, and Gantt charts.
-
-
-
-- **[Structurizr CLI & DSL (`structurizr/cli` & `structurizr/dsl`)](https://github.com)**  
-
-  Official open-source (`Apache-2.0`) C4 model-as-code toolchain enabling architects and AI agents to define a single software architecture model and export it to Mermaid, PlantUML, D2, or static HTML.
-
-
-
-- **[Diagrams (`mingrammer/diagrams`)](https://github.com)**  
-
-  Popular open-source (`MIT`) "Diagram as Code" Python library allowing engineers and AI agents to prototype AWS, GCP, Azure, Kubernetes, and on-premise system architectures in pure Python.
-
-
-
-- **[Excalidraw (`excalidraw/excalidraw`)](https://github.com)**  
-
-  Flagship open-source (`MIT`) virtual hand-drawn-style whiteboard featuring built-in Text-to-Diagram AI generation, Mermaid-to-Excalidraw conversion, and end-to-end encrypted real-time collaboration.
-
-
-
-- **[Next AI Draw.io (`DayuanJiang/next-ai-draw-io`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) Next.js web application integrating LLMs directly with Draw.io XML generation to create, modify, and refine cloud and system-design diagrams via natural language.
-
-
-
-- **[Draw.io Desktop & Web (`jgraph/drawio`)](https://github.com)**  
-
-  Full-featured open-source (`Apache-2.0`) diagramming application supporting AWS/Azure/GCP/Kubernetes icon libraries, UML, BPMN, and local offline desktop editing.
-
-
-
-- **[Kroki (`yuzutech/kroki`)](https://github.com)**  
-
-  Self-hostable open-source (`MIT`) unified API gateway that renders 25+ Diagram-as-Code formats (`PlantUML`, `Mermaid`, `D2`, `Graphviz`, `Structurizr`, `Excalidraw`, `BPMN`) from a single Docker container.
-
-
-
-- **[Graphviz (`graphviz/graphviz`)](https://gitlab.com)**  
-
-  Foundational open-source (`EPL-1.0`) graph visualization software (`DOT` language) powering automated dependency graphs, state machines, and hierarchical layout engines across developer tools.
-
-
-
-- **[LikeC4 (`likec4/likec4`)](https://github.com)**  
-
-  Modern open-source (`MIT`) Architecture-as-Code tool and live React/Vite viewer for C4 software architecture models featuring instant live reload, interactive drill-down views, and CLI exports.
-
-
-
-- **[Ilograph / Terravision (`patrickchugh/terravision`) & Pluralith](https://github.com)**  
-
-  Open-source (`GPL-3.0`) Infrastructure-as-Code visualization CLI that parses Terraform configurations and generates clean AWS/GCP cloud architecture diagrams automatically.
-
-
-
-- **[AFFiNE (`toeverything/AFFiNE`)](https://github.com)**  
-
-  Open-source (`MIT`) hyper-converged knowledge base and collaborative canvas uniting structured technical RFC docs, edgeless system-design whiteboards, and AI diagram generation.
-
-
-
-- **[ArchUnit (`TNG/ArchUnit`) & Dependency Cruiser (`sverweij/dependency-cruiser`)](https://github.com)**  
-
-  Essential open-source (`Apache-2.0` / `MIT`) architectural testing and validation tools verifying that implemented codebases strictly adhere to designed layered/hexagonal architecture boundaries.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[C4-PlantUML (`plantuml-stdlib/C4-PlantUML`)](https://github.com)** for standardizing Context, Container, Component, and Code diagrams inside PlantUML repositories.
-
-- **[Mermaid Live Editor (`mermaid-js/mermaid-live-editor`)](https://github.com-live-editor)** and **[D2 Playground (`terrastruct/d2-playground`)](https://github.com-playground)** for self-hostable interactive browser sandboxes with instant SVG/PNG export and shareable URLs.
-
-- **[InfraMap (`cycloidio/inframap`)](https://github.com)** and **[Blast Radius (`28mm/blast-radius`)](https://github.com)** for generating interactive dependency graphs from Terraform state and HCL files.
-
-- **[Diagram-as-Code MCP Servers (`mcp-mermaid` / `drawio-mcp`)](https://github.com)** for connecting Claude Code, Cursor, and custom AI architecture agents directly to diagram compilers and visual renderers.
-
-- **[ADR Tools (`npryce/adr-tools`)](https://github.com)** and **[Log4brains (`thomvaill/log4brains`)](https://github.com)** for managing Git-versioned Architecture Decision Records (ADRs) alongside system diagrams.
+Curated open-source repositories for AI system design, Diagram-as-Code engines, and visual architecture toolkits—ranked by GitHub community stargazers.
+
+| Project & Repo Link | Stars | License | Description & Architectural Focus |
+| :--- | :--- | :--- | :--- |
+| **[Excalidraw](https://github.com/excalidraw/excalidraw)** | [![Stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=social&color=white)](https://github.com/excalidraw/excalidraw/stargazers) | `MIT` | Virtual hand-drawn collaborative whiteboard with AI text-to-diagram synthesis, Mermaid import, and end-to-end encrypted live rooms. |
+| **[Mermaid](https://github.com/mermaid-js/mermaid)** | [![Stars](https://img.shields.io/github/stars/mermaid-js/mermaid?style=social&color=white)](https://github.com/mermaid-js/mermaid/stargazers) | `MIT` | The ubiquitous Markdown-inspired diagram syntax natively supported by GitHub, GitLab, Notion, and AI LLM chat interfaces for flowcharts and C4 diagrams. |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | `MIT` | Hyper-converged knowledge base uniting structured Markdown architecture specs, edgeless system design whiteboards, and AI canvas blocks. |
+| **[Draw.io Desktop](https://github.com/jgraph/drawio-desktop)** | [![Stars](https://img.shields.io/github/stars/jgraph/drawio-desktop?style=social&color=white)](https://github.com/jgraph/drawio-desktop/stargazers) | `Apache-2.0` | Cross-platform offline desktop application for diagrams.net with extensive cloud architecture stencils (AWS, GCP, Azure, Kubernetes). |
+| **[tldraw](https://github.com/tldraw/tldraw)** | [![Stars](https://img.shields.io/github/stars/tldraw/tldraw?style=social&color=white)](https://github.com/tldraw/tldraw/stargazers) | `tldraw` | Infinite canvas SDK and collaborative vector whiteboard powering custom AI diagramming interfaces and Make-Real prototyping agents. |
+| **[Diagrams](https://github.com/mingrammer/diagrams)** | [![Stars](https://img.shields.io/github/stars/mingrammer/diagrams?style=social&color=white)](https://github.com/mingrammer/diagrams/stargazers) | `MIT` | Diagram-as-Code Python framework enabling engineers and autonomous code agents to declare AWS, GCP, Azure, and K8s topologies in pure Python. |
+| **[xyflow / React Flow](https://github.com/xyflow/xyflow)** | [![Stars](https://img.shields.io/github/stars/xyflow/xyflow?style=social&color=white)](https://github.com/xyflow/xyflow/stargazers) | `MIT` | Highly customizable node-based UI library in React/Svelte powering interactive AI workflow visualizers, system architecture tools, and pipeline builders. |
+| **[Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io)** | [![Stars](https://img.shields.io/github/stars/DayuanJiang/next-ai-draw-io?style=social&color=white)](https://github.com/DayuanJiang/next-ai-draw-io/stargazers) | `Apache-2.0` | Open-source web application pairing LLMs with Draw.io XML generation to construct and refine complex system architecture diagrams via natural language. |
+| **[D2](https://github.com/terrastruct/d2)** | [![Stars](https://img.shields.io/github/stars/terrastruct/d2?style=social&color=white)](https://github.com/terrastruct/d2/stargazers) | `MPL-2.0` | Modern declarative diagramming language in Go featuring auto-layout engines (ELK/Tala), interactive drill-downs, and human/LLM-friendly syntax. |
+| **[PlantUML](https://github.com/plantuml/plantuml)** | [![Stars](https://img.shields.io/github/stars/plantuml/plantuml?style=social&color=white)](https://github.com/plantuml/plantuml/stargazers) | `GPL-3.0` | Veteran text-to-diagram engine converting human-readable plain text into UML sequence diagrams, class models, and C4-PlantUML architectures. |
+| **[bpmn-js](https://github.com/bpmn-io/bpmn-js)** | [![Stars](https://img.shields.io/github/stars/bpmn-io/bpmn-js?style=social&color=white)](https://github.com/bpmn-io/bpmn-js/stargazers) | `Camunda License` | Industry-standard BPMN 2.0 diagram rendering and web modeling toolkit for business process workflows and choreography specs. |
+| **[Draw.io Web Core](https://github.com/jgraph/drawio)** | [![Stars](https://img.shields.io/github/stars/jgraph/drawio?style=social&color=white)](https://github.com/jgraph/drawio/stargazers) | `Apache-2.0` | Core web client source repository for diagrams.net diagramming editor and browser engine. |
+| **[Dependency Cruiser](https://github.com/sverweij/dependency-cruiser)** | [![Stars](https://img.shields.io/github/stars/sverweij/dependency-cruiser?style=social&color=white)](https://github.com/sverweij/dependency-cruiser/stargazers) | `MIT` | Validates, visualizes, and enforces module dependency rules across JavaScript/TypeScript codebases with automated Mermaid/DOT exports. |
+| **[C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML)** | [![Stars](https://img.shields.io/github/stars/plantuml-stdlib/C4-PlantUML?style=social&color=white)](https://github.com/plantuml-stdlib/C4-PlantUML/stargazers) | `MIT` | Standard PlantUML macro library implementing the C4 model for visual software architecture documentation. |
+| **[Mermaid Live Editor](https://github.com/mermaid-js/mermaid-live-editor)** | [![Stars](https://img.shields.io/github/stars/mermaid-js/mermaid-live-editor?style=social&color=white)](https://github.com/mermaid-js/mermaid-live-editor/stargazers) | `MIT` | Interactive web playground for authoring, previewing, and sharing Mermaid diagrams with instant SVG/PNG exports. |
+| **[AntV X6](https://github.com/antvis/X6)** | [![Stars](https://img.shields.io/github/stars/antvis/X6?style=social&color=white)](https://github.com/antvis/X6/stargazers) | `MIT` | Graph editing engine and visual modeling framework providing node/edge editing for DAG pipelines, ER models, and system canvases. |
+| **[LikeC4](https://github.com/likec4/likec4)** | [![Stars](https://img.shields.io/github/stars/likec4/likec4?style=social&color=white)](https://github.com/likec4/likec4/stargazers) | `MIT` | Architecture-as-Code tooling language with live React/Vite previews, automated multi-level drilldown views, and CLI code generation. |
+| **[Kroki](https://github.com/yuzutech/kroki)** | [![Stars](https://img.shields.io/github/stars/yuzutech/kroki?style=social&color=white)](https://github.com/yuzutech/kroki/stargazers) | `MIT` | Unified diagram generation gateway and microservice converting 25+ Diagram-as-Code formats from a single Docker container. |
+| **[ArchUnit](https://github.com/TNG/ArchUnit)** | [![Stars](https://img.shields.io/github/stars/TNG/ArchUnit?style=social&color=white)](https://github.com/TNG/ArchUnit/stargazers) | `Apache-2.0` | Architectural test library for Java verifying package dependencies, cyclic checks, and layered architecture boundaries in unit tests. |
+| **[Blast Radius](https://github.com/28mm/blast-radius)** | [![Stars](https://img.shields.io/github/stars/28mm/blast-radius?style=social&color=white)](https://github.com/28mm/blast-radius/stargazers) | `MIT` | Interactive computation and visual dependency tool for Terraform graph models using d3.js. |
+| **[InfraMap](https://github.com/cycloidio/inframap)** | [![Stars](https://img.shields.io/github/stars/cycloidio/inframap?style=social&color=white)](https://github.com/cycloidio/inframap/stargazers) | `GPL-3.0` | CLI utility that reads Terraform state or HCL files and prints clean, consolidated cloud infrastructure diagrams. |
+| **[Terravision](https://github.com/patrickchugh/terravision)** | [![Stars](https://img.shields.io/github/stars/patrickchugh/terravision?style=social&color=white)](https://github.com/patrickchugh/terravision/stargazers) | `GPL-3.0` | CLI tool parsing Terraform code to generate visual architecture diagrams across AWS, Google Cloud, and Azure. |
+| **[Pluralith CLI](https://github.com/pluralith/pluralith-cli)** | [![Stars](https://img.shields.io/github/stars/pluralith/pluralith-cli?style=social&color=white)](https://github.com/pluralith/pluralith-cli/stargazers) | `AGPL-3.0` | Automated infrastructure documentation CLI generating dynamic state diagrams directly from Terraform runs. |
+| **[LangChain Design Agent](https://github.com/langchain-ai/design-agent)** | [![Stars](https://img.shields.io/github/stars/langchain-ai/design-agent?style=social&color=white)](https://github.com/langchain-ai/design-agent/stargazers) | `MIT` | AI software architecture and system-design assistant built with LangGraph exploring trade-offs and outputting structured architecture plans. |
+| **[Structurizr CLI](https://github.com/structurizr/cli)** | [![Stars](https://img.shields.io/github/stars/structurizr/cli?style=social&color=white)](https://github.com/structurizr/cli/stargazers) | `Apache-2.0` | Command-line utility to validate, build, and export Structurizr DSL architecture models to PlantUML, Mermaid, and D2. |
+
+---
+
+## Architecture Decision Records & Linters
+
+Maintain architectural integrity by pairing your diagrams with git-versioned Architecture Decision Records (ADRs):
+
+- **[ADR Tools (`npryce/adr-tools`)](https://github.com/npryce/adr-tools)** [![Stars](https://img.shields.io/github/stars/npryce/adr-tools?style=social&color=white)](https://github.com/npryce/adr-tools/stargazers): CLI for managing lightweight architecture decision records within a repository.
+- **[Log4brains (`thomvaill/log4brains`)](https://github.com/thomvaill/log4brains)** [![Stars](https://img.shields.io/github/stars/thomvaill/log4brains?style=social&color=white)](https://github.com/thomvaill/log4brains/stargazers): Architecture knowledge-base and static site generator documenting ADRs right next to code.
+- **[Diagram-as-Code MCP Servers](https://modelcontextprotocol.io)**: Connect AI agents directly to local Mermaid, D2, and Graphviz renderers via Model Context Protocol.
+
+---
+
+## Contributing
+
+Contributions are very welcome! Whether you are an author of a system design tool, an open-source maintainer, or an architect with battle-tested recommendations:
+
+1. Fork this repository.
+2. Check existing entries to ensure no duplicates.
+3. Add your SaaS or Open-Source project in the appropriate table, adhering to the column formatting and specific pricing/limit guidelines.
+4. Submit a Pull Request with a clear summary of what you added and why it benefits software architects.
+
+---
+
+## License & Disclaimer
+
+- Distributed under the [MIT License](LICENSE).
+- *Disclaimer: Product names, logos, and brands referenced are property of their respective owners. Mention of SaaS platforms or commercial software does not imply formal endorsement.*
