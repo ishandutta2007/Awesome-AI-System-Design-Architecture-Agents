@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
@@ -69,7 +69,7 @@ The global diagramming and visual architecture software market is valued at appr
 
 Curated open-source repositories for AI system design, Diagram-as-Code engines, and visual architecture toolkits—ranked by GitHub community stargazers.
 
-| Project & Repo Link | Stars | License | Description & Architectural Focus |
+| Project & Repo Link | GitHub_Stars | License | Description & Architectural Focus |
 | :--- | :--- | :--- | :--- |
 | **[Excalidraw](https://github.com/excalidraw/excalidraw)** | [![Stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=social&color=white)](https://github.com/excalidraw/excalidraw/stargazers) | `MIT` | Virtual hand-drawn collaborative whiteboard with AI text-to-diagram synthesis, Mermaid import, and end-to-end encrypted live rooms. |
 | **[Mermaid](https://github.com/mermaid-js/mermaid)** | [![Stars](https://img.shields.io/github/stars/mermaid-js/mermaid?style=social&color=white)](https://github.com/mermaid-js/mermaid/stargazers) | `MIT` | The ubiquitous Markdown-inspired diagram syntax natively supported by GitHub, GitLab, Notion, and AI LLM chat interfaces for flowcharts and C4 diagrams. |
