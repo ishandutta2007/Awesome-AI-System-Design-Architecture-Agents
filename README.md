@@ -1,43 +1,54 @@
-# Awesome AI System Design & Architecture Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI System Design &amp; Architecture Agents Banner" width="100%" />
+</p>
 
-> A curated directory and ecosystem guide of **AI System Design & Architecture Agents**, Diagram-as-Code engines, visual cloud topology compilers, and automated software architecture modeling tools.
+# 🚀 Awesome AI System Design & Architecture Agents
 
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social)](https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social)](https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/network/members)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/pulls)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+> 🧠 A curated directory and comprehensive ecosystem guide of **AI System Design & Architecture Agents**, Diagram-as-Code engines, visual cloud topology compilers, and automated software architecture modeling tools.
 
----
-
-## Overview
-
-Modern software engineering is transitioning from manual, static whiteboard diagrams to **AI-driven architecture synthesis** and **Diagram-as-Code (DaC)**. This repository tracks production **SaaS platforms**, enterprise visual workspaces, and **open-source developer tools** that empower Principal Architects, Staff Engineers, Tech Leads, and AI agents to:
-
-- Transform natural language user stories and PRDs into comprehensive C4 models, sequence diagrams, and ERDs.
-- Reverse-engineer git codebases and Terraform/OpenTofu configurations into interactive cloud topologies.
-- Generate version-controlled, auditable architecture specifications using Mermaid, PlantUML, D2, and Structurizr DSL.
-- Integrate Diagram-as-Code MCP (Model Context Protocol) servers directly into autonomous coding agents (Claude Code, Cursor, Copilot Workspace).
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-System-Design-Architecture-Agents/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-## Table of Contents
+## 📖 Overview
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture Decision Records & Linters](#architecture-decision-records--linters)
-- [Contributing](#contributing)
-- [License & Disclaimer](#license--disclaimer)
+Modern software engineering is transitioning from manual, static whiteboard diagrams to **AI-driven architecture synthesis** and **Diagram-as-Code (DaC)**. This repository tracks production **SaaS platforms**, enterprise visual workspaces, and **open-source developer tools** that empower Principal Architects, Staff Engineers, Tech Leads, and autonomous AI agents to:
+
+- 📝 Transform natural language user stories, RFCs, and PRDs into comprehensive C4 models, sequence diagrams, and ERDs.
+- ☁️ Reverse-engineer live git codebases and Terraform/OpenTofu configurations into interactive cloud topologies.
+- 📐 Generate version-controlled, auditable architecture specifications using Mermaid, PlantUML, D2, and Structurizr DSL.
+- 🔌 Integrate Diagram-as-Code MCP (Model Context Protocol) servers directly into autonomous coding agents (Claude Code, Cursor, Copilot Workspace).
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛡️ Architecture Decision Records & Linters](#️-architecture-decision-records--linters)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📜 License & Disclaimer](#-license--disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global diagramming and visual architecture software market is valued at approximately **$1.8B to $2.5B** (projected to reach **$6.8B+ by 2030** at ~10% CAGR). The sector is **moderately fragmented**: horizontal enterprise collaboration giants (Datadog, Miro, Lucid Software) capture significant enterprise spend, but developer-first adoption remains heavily decentralized across specialized Diagram-as-Code tools, open-source engines, and emerging AI-native architecture startups.
 
 ---
 
-## SaaS & Hosted Platforms
+## 🏢 SaaS & Hosted Platforms
 
 | Product | Valuation / Revenue | Starting Pricing | Free Tier Limits | Key Architecture Features |
 | :--- | :--- | :--- | :--- | :--- |
@@ -54,7 +65,7 @@ The global diagramming and visual architecture software market is valued at appr
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Curated open-source repositories for AI system design, Diagram-as-Code engines, and visual architecture toolkits—ranked by GitHub community stargazers.
 
@@ -88,28 +99,45 @@ Curated open-source repositories for AI system design, Diagram-as-Code engines, 
 
 ---
 
-## Architecture Decision Records & Linters
+## 🛡️ Architecture Decision Records & Linters
 
 Maintain architectural integrity by pairing your diagrams with git-versioned Architecture Decision Records (ADRs):
 
-- **[ADR Tools (`npryce/adr-tools`)](https://github.com/npryce/adr-tools)** [![Stars](https://img.shields.io/github/stars/npryce/adr-tools?style=social&color=white)](https://github.com/npryce/adr-tools/stargazers): CLI for managing lightweight architecture decision records within a repository.
-- **[Log4brains (`thomvaill/log4brains`)](https://github.com/thomvaill/log4brains)** [![Stars](https://img.shields.io/github/stars/thomvaill/log4brains?style=social&color=white)](https://github.com/thomvaill/log4brains/stargazers): Architecture knowledge-base and static site generator documenting ADRs right next to code.
-- **[Diagram-as-Code MCP Servers](https://modelcontextprotocol.io)**: Connect AI agents directly to local Mermaid, D2, and Graphviz renderers via Model Context Protocol.
+- 📜 **[ADR Tools (`npryce/adr-tools`)](https://github.com/npryce/adr-tools)** [![Stars](https://img.shields.io/github/stars/npryce/adr-tools?style=social&color=white)](https://github.com/npryce/adr-tools/stargazers): CLI for managing lightweight architecture decision records within a repository.
+- 📚 **[Log4brains (`thomvaill/log4brains`)](https://github.com/thomvaill/log4brains)** [![Stars](https://img.shields.io/github/stars/thomvaill/log4brains?style=social&color=white)](https://github.com/thomvaill/log4brains/stargazers): Architecture knowledge-base and static site generator documenting ADRs right next to code.
+- 🔌 **[Diagram-as-Code MCP Servers](https://modelcontextprotocol.io)**: Connect AI agents directly to local Mermaid, D2, and Graphviz renderers via Model Context Protocol.
 
 ---
 
-## Contributing
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-System-Design-Architecture-Agents&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-System-Design-Architecture-Agents&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and using this ecosystem guide! If you find this curated collection helpful for your system design and engineering workflows:
+
+- ⭐ **Star** this repository to help others discover it!
+- 🍴 **Fork** and contribute your favorite architecture agents and diagramming tools.
+- 📢 **Share** it with your engineering peers, technical architects, and DevOps teams.
+- ☕ **Buy a coffee & sponsor** the continuous curation and maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 Contributing
 
 Contributions are very welcome! Whether you are an author of a system design tool, an open-source maintainer, or an architect with battle-tested recommendations:
 
-1. Fork this repository.
-2. Check existing entries to ensure no duplicates.
-3. Add your SaaS or Open-Source project in the appropriate table, adhering to the column formatting and specific pricing/limit guidelines.
-4. Submit a Pull Request with a clear summary of what you added and why it benefits software architects.
+1. 🍴 Fork this repository.
+2. 🔍 Check existing entries to ensure no duplicates.
+3. ➕ Add your SaaS or Open-Source project in the appropriate table, adhering to the column formatting and specific pricing/limit guidelines.
+4. 🚀 Submit a Pull Request with a clear summary of what you added and why it benefits software architects.
 
 ---
 
-## License & Disclaimer
+## 📜 License & Disclaimer
 
-- Distributed under the [MIT License](LICENSE).
-- *Disclaimer: Product names, logos, and brands referenced are property of their respective owners. Mention of SaaS platforms or commercial software does not imply formal endorsement.*
+- ⚖️ Distributed under the [MIT License](LICENSE).
+- ℹ️ *Disclaimer: Product names, logos, and brands referenced are property of their respective owners. Mention of SaaS platforms or commercial software does not imply formal endorsement.*
